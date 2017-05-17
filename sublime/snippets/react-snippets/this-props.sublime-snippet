@@ -1,0 +1,11 @@
+<snippet>
+	<content>
+	<![CDATA[
+this.props${1:()}
+]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>this.props</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

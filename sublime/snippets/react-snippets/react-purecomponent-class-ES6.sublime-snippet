@@ -1,0 +1,26 @@
+<snippet>
+	<content>
+	<![CDATA[
+import React, { PureComponent } from 'react';
+import './${TM_FILENAME/(\w+)\.js/\1/g}.css';
+
+class ${TM_FILENAME/(\w+)\.js/\1/g} extends PureComponent {
+	state = {
+		$1
+	};
+
+	render = () => {
+		return (
+			${2:<div></div>}
+		);
+	}
+}
+
+export default ${TM_FILENAME/(\w+)\.js/\1/g};
+]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rcpES6</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
