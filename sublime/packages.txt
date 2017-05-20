@@ -1,0 +1,28 @@
+"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"CSS Completions",
+		"CSS3",
+		"EditorConfig",
+		"Emmet",
+		"Flow",
+		"Git",
+		"GitGutter",
+		"Hover Image Preview",
+		"HTML5",
+		"HyperClick",
+		"JavaScript Completions",
+		"Package Control",
+		"Panda Syntax Sublime",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-flow",
+		"TabsExtra",
+		"Theme - Afterglow"
+	]
