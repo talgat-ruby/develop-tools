@@ -35,6 +35,16 @@ exports.generateTemplates = templates => async (path, names, list, opts) => {
 		);
 	}
 
+	if (list.includes(includes.test)) {
+		promises.push(
+			checkExistanceThenWriteFile(
+				path,
+				`${names.fileName}.test.js`,
+				templates[includes.test](names, list)
+			)
+		);
+	}
+
 	if (list.includes(includes.flow)) {
 		promises.push(
 			checkExistanceThenWriteFile(

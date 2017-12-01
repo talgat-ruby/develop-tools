@@ -36,14 +36,24 @@ ${list.includes(includes.redux) && 'const mapStateToProps = state => ({});'}
 ${list.includes(includes.redux) && 'const mapDispatchToProps = {};'}
 
 export default ${list.includes(includes.redux) &&
-	'connect(mapStateToProps, mapDispatchToProps)('}${names.componentName}${list.includes(
-	includes.redux
-) && ')'};
+	'connect(mapStateToProps, mapDispatchToProps)('}${
+	names.componentName
+}${list.includes(includes.redux) && ')'};
 `;
 
 const css = names => templateTag`
 .${names.styleName} {
 }
+`;
+
+const test = names => templateTag`
+import React from 'react';
+import ReactDOM from 'react-dom';
+import ${names.componentName} from './${names.fileName}';
+
+test("adds 'hello' to 'world' equal to 'hello world'", () => {
+	expect('hello' + ' ' + 'world').toBe('hello world');
+});
 `;
 
 const flow = names => templateTag`
@@ -58,5 +68,6 @@ module.exports = {
 	index,
 	component,
 	[includes.css]: css,
+	[includes.test]: test,
 	[includes.flow]: flow
 };
