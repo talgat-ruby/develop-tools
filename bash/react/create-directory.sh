@@ -15,4 +15,4 @@ done
 touch $folder.js
 touch $folder.css
 touch $folder.test.js
-touch $folder.flow.js
+touch $folder.types.js
