@@ -1,0 +1,47 @@
+{
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/My Theme.tmTheme",
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"C#",
+		"Clojure",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"material_theme_accent_scrollbars": true,
+	"material_theme_accent_yellow": true,
+	"material_theme_bullet_tree_indicator": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_disable_folder_animation": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"overlay_scroll_bars": "enabled",
+	"sidebar_row_padding_medium": true,
+	"status_bar_brighter": true,
+	"tab_size": 2,
+	"tabs_padding_medium": true,
+	"tabs_small": true,
+	"theme": "Adaptive.sublime-theme",
+	"wide_caret": true
+}

@@ -1,5 +1,8 @@
-"installed_packages":
-	[
+{
+	"installed_packages": [
+		"A File Icon",
+		"AdvancedNewFile",
+		"Alignment",
 		"All Autocomplete",
 		"AutoFileName",
 		"Babel",
@@ -9,20 +12,33 @@
 		"CSS3",
 		"EditorConfig",
 		"Emmet",
-		"Flow",
+		"ESLint",
+		"FlowIDE",
 		"Git",
 		"GitGutter",
+		"GoSublime",
 		"GraphQL",
-		"Hover Image Preview",
+		"HTML Nest Comments",
 		"HTML5",
 		"HyperClick",
 		"JavaScript Completions",
+		"JsPrettier",
+		"MarkdownLight",
+		"MarkdownLivePreview",
 		"Package Control",
+		"PackageResourceViewer",
 		"Pretty JSON",
+		"Rust Enhanced",
+		"Sass",
 		"SideBarEnhancements",
+		"SortList",
+		"Stylus",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-flow",
 		"TabsExtra",
-		"Theme - Afterglow"
+		"TypeScript",
+		"Vue Syntax Highlight"
 	]
+}
